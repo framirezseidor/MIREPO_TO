@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: GOLD_PL_FACT
+    description: FACT DE FORMATO PL
+  - name: GOLD_WAVE_FACT
+    description: FACT DE WAVE
+  - name: GOLD_CARGAS_INICIATIVAS_FACT
+  - name: GOLD_EBITDA_FACT

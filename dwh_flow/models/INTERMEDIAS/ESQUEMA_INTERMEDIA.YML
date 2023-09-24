@@ -1,0 +1,18 @@
+version: 2
+models:
+  - name: SILVER_CARGA_INICIATIVAS_T
+    database: 'unitycatalog_dev'
+    schema: 'silver_flow'
+    description: formato de carga 
+  - name: SILVER_TEXTOS_INICIATIVAS_T
+    database: 'unitycatalog_dev'
+    schema: 'silver_flow'
+    description: texto de carga
+  - name: SILVER_WAVE_T
+    database: 'unitycatalog_dev'
+    schema: 'silver_flow'
+    description: npivot de impact      
+  - name: SILVER_HISTORICO_INICIATIVAS_V
+    database: 'unitycatalog_dev'
+    schema: 'silver_flow'
+    description: historico     

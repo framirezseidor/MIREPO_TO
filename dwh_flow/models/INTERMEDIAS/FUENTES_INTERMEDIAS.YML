@@ -1,0 +1,22 @@
+version: 2
+sources: 
+  - name: FORMATO
+    description: 'tabla de formato de carga'
+    database: unitycatalog_dev
+    schema: bronce_flow_sharepoint
+    tables: 
+    - name: stg_formato_iniciativas_t
+      description: formato de carga    
+    - name: stg_iniciativas_hist_t
+      description: carga de historico 
+
+  - name: SHAREPNT
+    description: 'otros archivos'
+    database: unitycatalog_dev
+    schema: bronze_sharepoint_flow
+    tables: 
+    - name: iniciativa_region_base_historica_original
+      description: regiones
+    - name: stg_moneda_t
+      description: stg_moneda_t    
+        

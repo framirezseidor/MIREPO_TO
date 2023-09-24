@@ -1,0 +1,18 @@
+version: 2
+sources: 
+  - name: 'WAVE'
+    description: 'TABLAS STG WAVE'
+    database: unitycatalog_dev
+    schema: bronze_flow_wave
+    tables: 
+    - name: initiative
+      description: iniciativas
+    - name: fx
+      description: fx
+    - name: impact
+      description: impact
+    - name: kpi
+      description: kpi
+    - name: milestone
+      description: milestone
+  
